@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+
+
+
+:root {
+    font-family: 'Alatsi' sans-serif;
+    --main-color: black;
+}
+
+body {
+    max-width: 980;
+    margin: auto;
+}
+header .logo {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+header nav .menu {
+    display: flex;
+    padding: 0;
+    list-style: none;
+    justify-content: space-around;
+}
+
+header nav .menu a:hover {
+    border: 1 px solid (var --main-color);
+}
+
+@media (min-width: 600px) {
+    header nav {
+        display: flex;
+    }
+}
+
+header .menu {
+    flex: 1;
+}
+
+header .banner {
+    background-image: url(../img/sybertrack.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .banner h1 {
+    font-size: 3rem;
+    font-family: 'Bebas Neue' cursive;
+}
+
+.button {
+    display: inline-block;
+    padding: 0.35em 1.2 em;
+}
